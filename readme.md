@@ -40,5 +40,5 @@ To use these files for MT evaluation, follow these steps:
    data = evaluate_translation(data, 'candidate_column', 'reference_column')
    bleu_score = calculate_bleu(data['candidate_column'], data['reference_column'])
    ```
-   
+3. Customize the code or add additional functions as needed to suit your specific MT evaluation task
 
