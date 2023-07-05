@@ -32,5 +32,13 @@ This repository contains three files (`__init__.py`, `files_reading.py`, and `me
 
 To use these files for MT evaluation, follow these steps:
 
-1. Ensure that you have the required dependencies installed. You may need to install packages in requirements.txt
+1. Ensure that you have the required dependencies installed. You may need to install packages in `requirements.txt`
+2. Use the imported functions to read data, evaluate translations, and calculate evaluation scores based on your requirements.
+   ```python
+   file_path = "path/to/your/data.csv"
+   data = read_csv(file_path)
+   data = evaluate_translation(data, 'candidate_column', 'reference_column')
+   bleu_score = calculate_bleu(data['candidate_column'], data['reference_column'])
+   ```
+   
 
