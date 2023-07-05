@@ -1,0 +1,6 @@
+nltk
+jiwer
+rouge-score
+bert-score
+unbabel-comet
+openpyxl
